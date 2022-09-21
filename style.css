@@ -1,0 +1,39 @@
+*{
+border: 0;
+}
+body{
+    background-color: thistle;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+.col{
+    background-color: gray;
+    border: 2px solid red;
+    /* float: left; */
+    margin-top: 20px;
+    margin-right: 6px;
+}
+@media (min-width:992px) {
+    .col{
+        width: 32.33%;
+        float:left;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .col{
+        width: 40%;
+        float:left;
+    }
+}
+@media (max-width:767px){
+    .col{
+        width: 80%;
+    }
+}
